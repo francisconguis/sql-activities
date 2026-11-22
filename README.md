@@ -6,6 +6,11 @@ A collection of SQL and Database Administration exercises (MySQL).
 
 ```text
 sql-activities/
+├── Stored-Procedure/
+│   ├── stored-procedure.sql
+│   ├── course.csv
+│   ├── program.csv
+│   └── student.csv
 └── Trigger/
     ├── Trigger-v1/
     │   ├── Exercises-Trigger.pdf
@@ -19,5 +24,6 @@ sql-activities/
 
 ### Activities
 
+- **Stored-Procedure**: Stored procedures for student enrollment and academic reporting (`sp_CountEnrolleesPerProgram`, `sp_CountEnrolleesPerSubject`, `sp_GetExceededTenure`, `sp_GetDeansListers`, `sp_ListStudentGrades`, `sp_GetHonorsCandidates`) using `course.csv`, `program.csv`, and `student.csv`.
 - **Trigger / Trigger-v1** — Solution for **Exercises-Trigger** (`EXER0927`): Audit logging triggers (`TR_InsCust`, `TR_UpdCust`, `TR_DelCust`), stored procedure with explicit transaction control (`SP_DelCust`), and view (`CustSman_V`) using `Customer_T.csv` and `Salesman_T.csv`.
 - **Trigger / Trigger-v2** — Solution for **Trigger Room Exercises 2026** (`RoomDB`): Room booking status trigger (`TR_UpdateRoomStatus`) and stored procedures in autocommit (`SP_InsertTrans_Auto`) and explicit transaction (`SP_InsertTrans_Explicit`) modes.
