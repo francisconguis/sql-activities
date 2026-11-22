@@ -8,10 +8,12 @@ A collection of SQL and Database Administration exercises (MySQL).
 sql-activities/
 └── Trigger/
     ├── Trigger-v1/
+    │   ├── Exercises-Trigger.pdf
     │   ├── Trigger v1.sql
     │   ├── Customer_T.csv
     │   └── Salesman_T.csv
     └── Trigger-v2/
+        ├── Trigger Room Exercises 2026.pdf
         └── Trigger v2.sql
 ```
 
